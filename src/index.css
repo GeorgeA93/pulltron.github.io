@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('./avenir-next-regular.ttf') format('truetype')
+}
+
+html, body {
+    height: 100%;
+    background-color: #ACCBB5;
+    font-family: 'AvenirNext'
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.vertical-center {
+    min-height: 100%;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    display: inline-block;
+    border: 2px solid #2A4149;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 18px;
+    border-radius: 18px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+@media only screen and (min-width: 768px) {
+    .button {
+        height: 40px;
+        line-height: 40px;
+        padding: 0 26px;
+        border-radius: 22px;
+    }
+}
+
+.button.compact {
+    height: 32px;
+    line-height: 32px;
+    padding: 0 18px;
+    border-radius: 18px;
+}
+
+.button.primary, .button:hover {
+    background: #2A4149;
+    color: #FEFEFE;
+}
+
+.button.primary:hover {
+    background: darken(#2A4149, 5%);
+    border-color: darken(#2A4149, 5%);
+}

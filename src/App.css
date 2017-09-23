@@ -1,0 +1,19 @@
+.header {
+    color: #000000;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.sub-header {
+    color: #0E0E0E;
+    font-size: 1.5em;
+}
+
+.install-button {
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+.description-text {
+    font-size: 1.1em;
+}
