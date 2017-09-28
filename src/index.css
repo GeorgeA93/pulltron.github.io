@@ -15,7 +15,7 @@ body {
 }
 
 .vertical-center {
-    min-height: 100%;
+    min-height: 97%;
     min-width: 100%;
     display: flex;
     align-items: center;
@@ -56,4 +56,13 @@ body {
 .button.primary:hover {
     background: darken(#2A4149, 5%);
     border-color: darken(#2A4149, 5%);
+}
+
+footer {
+    text-align: center;
+    margin: 0;
+}
+
+footer p {
+    font-size: 1.2em;
 }
