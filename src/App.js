@@ -34,11 +34,11 @@ class App extends Component {
                         <p className="description-text">
                             Pulltron analyses your organisations GitHub repositories daily, looking for pull requests which are in need of some love.
                             If a pull request hasn't been updated in a while Pulltron will ping the relevant people for you.
-                            Saving you, and everyone involved, from the awkward nature of chasing people up.
+                            Saving you, and everyone involved, from the awkward process of chasing people up.
                         </p>
                         <p className="description-text">
                             Pulltron tailors the comments it creates based on the current state of the pull request.
-                            Whether it's in review or just waiting for some more changes, Pulltron has got your back.
+                            Whether it's in review or just waiting for some more changes, Pulltron knows what to say.
                         </p>
                         <p className="description-text">
                             When the pull request is clearly not going anywhere, and eventually becomes stale,
