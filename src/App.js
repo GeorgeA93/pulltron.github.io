@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Row, Col, Button } from 'react-bootstrap';
+import * as FontAwesome from 'react-fontawesome';
 import './App.css';
 
 class App extends Component {
@@ -19,7 +20,9 @@ class App extends Component {
                             className='install-button'
                             href='https://github.com/apps/pulltron'
                             bsSize='lg'>
-                            Install the GitHub app
+                            <FontAwesome
+                                name='github'
+                            /> Install the app
                         </Button>
                     </Col>
                 </Row>
@@ -44,6 +47,11 @@ class App extends Component {
                             When the pull request is clearly not going anywhere, and eventually becomes stale,
                             Pulltron will let you know and close it for you. Thus, reducing noise in your pull request list!
                         </p>
+                    </Col>
+                </Row>
+                <Row style={{ marginTop: '15px' }}>
+                    <Col xs={12}>
+
                     </Col>
                 </Row>
             </div>
